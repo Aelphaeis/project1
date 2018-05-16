@@ -2,24 +2,12 @@ package com.dixon.project;
 
 public class Q2 {
 
+	//This is completely right; however, could have been shorted
 	public static void main(String[] args) {
-		
-		
-	int value = 4;
-	int total = 0;
-	
-	total = displayScreen(value);
-	
-	System.out.println(total);
-	
+		System.out.println(displayScreen(4));
 	}
-	
-	
+	//notice my in lining.
 	public static int displayScreen(int value) {
-		
-		value = value * value;
-		return value;		
-	
-	
+		return value * value;
 	}
 }

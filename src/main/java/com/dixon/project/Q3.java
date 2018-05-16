@@ -2,6 +2,10 @@ package com.dixon.project;
 
 public class Q3 {
 
+	/**
+	 * Also correct. Same comments regarding the inining of values.
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		int number = 4;
